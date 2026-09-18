@@ -1,0 +1,22 @@
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets
+.env
+*.pem
+
+# IDE & Local Project Settings
+.vscode/
+.idea/
+
+# MicroPython build or flash artifacts
+*.mpy
+/build/
+/dist/
+
+# Python bytecode and virtual environments
+__pycache__/
+*.pyc
+env/
+venv/
